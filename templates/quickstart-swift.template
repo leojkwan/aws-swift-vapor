@@ -302,6 +302,7 @@
         "BastionInstanceRole": {
             "Type": "AWS::IAM::Role",
             "Properties": {
+                "RoleName": "Admin",
                 "AssumeRolePolicyDocument": {
                     "Version": "2012-10-17",
                     "Statement": [
@@ -437,6 +438,7 @@
         "ClusterInstanceRole": {
             "Type": "AWS::IAM::Role",
             "Properties": {
+                "RoleName": "Admin",
                 "AssumeRolePolicyDocument": {
                     "Version": "2012-10-17",
                     "Statement": [
